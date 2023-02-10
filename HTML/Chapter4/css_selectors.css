@@ -1,6 +1,13 @@
+:root {
+  --main-color: blue;
+  --main-bg-color: yellow;
+}
+
+
 /* element selectors */
 p {
-  color: blue;
+  color: var(--main-color);
+  background-color: var(--main-bg-color);
 }
 
 a {
