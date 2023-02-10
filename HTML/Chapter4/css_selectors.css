@@ -27,9 +27,14 @@ h2 {
   color: green;
 }
 
-/* descendent selector */
+/* descendent selector - direct */
 h2 em {
   color: magenta;
+}
+
+/* descendent selector - cascading */
+h2 > em {
+  color: rgb(34,56,67);
 }
 
 /* pseudo-class selector */
