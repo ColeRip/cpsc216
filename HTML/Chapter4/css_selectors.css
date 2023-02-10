@@ -1,0 +1,40 @@
+/* element selectors */
+p {
+  color: blue;
+}
+
+a {
+  color: rgb(150,150,150);
+}
+
+ul {
+  font-style: oblique;
+  font-family: monospace;
+}
+
+h2 {
+  color: rgb(50,100,150);
+  font-family: sans-serif;
+}
+
+/* class selector */
+.footnote {
+  color: red;
+}
+
+/* ID selector */
+#footnote-1 {
+  color: green;
+}
+
+/* descendent selector */
+h2 em {
+  color: magenta;
+}
+
+/* pseudo-class selector */
+/*
+:hover {
+  color: cyan;
+}
+*/
