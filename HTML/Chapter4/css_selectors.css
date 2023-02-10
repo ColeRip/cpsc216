@@ -1,8 +1,11 @@
+/* Variables in CSS */
 :root {
   --main-color: blue;
   --main-bg-color: yellow;
+  --my-grey-color: rgb(150,150,150);
+  --my-weird-color: rgb(50,100,150);
+  --my-h2-color: rgb(34,56,67);
 }
-
 
 /* element selectors */
 p {
@@ -11,7 +14,7 @@ p {
 }
 
 a {
-  color: rgb(150,150,150);
+  color: var(--my-grey-color);
 }
 
 ul {
@@ -20,7 +23,7 @@ ul {
 }
 
 h2 {
-  color: rgb(50,100,150);
+  color: var(--my-weird-color);
   font-family: sans-serif;
 }
 
@@ -41,7 +44,7 @@ h2 em {
 
 /* descendent selector - cascading */
 h2 > em {
-  color: rgb(34,56,67);
+  color: var(--my-h2-color);
 }
 
 /* pseudo-class selector */
