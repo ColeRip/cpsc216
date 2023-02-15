@@ -4,7 +4,7 @@
 :root {
    --header-color: white;
    --font-color: #777777;
-   --bg-color: #00004f;
+   --bg-color: #0b1857;
 }
 
 body {
@@ -81,7 +81,7 @@ nav a {
 /* Adjust the spacing/padding/margins */
 
 section {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 20px;
 }
 
@@ -93,6 +93,7 @@ section {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
 }
 
 td {
