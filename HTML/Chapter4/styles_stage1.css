@@ -26,8 +26,6 @@ h2 {
   font-variant: small-caps;
 }
 
-
-
 /* Observations - links do not look good! */
 
 a:link {
@@ -46,7 +44,6 @@ a:active {
    color: purple;
 }
 
-
 /* Improve the look of the navigation area */
 
 nav {
@@ -59,4 +56,43 @@ nav a {
    text-transform: lowercase;
    font-weight: bold;
    font-size: larger;
+   margin-left: 10px;
+   margin-right: 10px;
 }
+
+/* Make it so that the band member info comes beside the band member images */
+
+.band-members {
+  float: left; /* this makes the image float to the left */
+  clear: both; /* this "clears" the float rule for the next image */
+}
+
+#members ul {
+  float: left;
+}
+
+#members {
+  display: inline-block;
+}
+
+/* Adjust the spacing/padding/margins */
+
+section {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+#members img {
+  margin-bottom: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 10px;
+}
+*/
