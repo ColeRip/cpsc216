@@ -1,0 +1,21 @@
+/* Stage 1 - make the navigation links appear on the same row */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Stage 2 - add styling to the list elements, and allow them to have the same proportion */
+nav li {
+  flex-grow: 1;
+  background-color: gold;
+  text-align: center;
+}
+
+/* Stage 3 - add a flex-basis of 100 px */
+/*nav li {
+  flex-basis: 300px;
+  flex-shrink: 0;
+  background-color: gold;
+  text-align: center;
+}*/
