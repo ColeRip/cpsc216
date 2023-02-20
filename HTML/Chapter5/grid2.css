@@ -1,0 +1,26 @@
+#grid-container {
+   width: 400px;
+   font-size: 2em;
+   background: cornflowerblue;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 5px 5px;
+}
+
+#grid-container > div {
+   background: powderblue;
+   padding: 10px;
+}
+
+#grid-item-a {
+   grid-row: 3 / 4;
+}
+
+#grid-item-b {
+   grid-column: 3 / 4;
+   grid-row: 1 / 4;
+}
+
+#grid-item-c {
+   grid-area: 1 / 1 / 4 / 3;
+}

@@ -1,0 +1,44 @@
+body {
+   display: grid;
+   background: black;
+   font-size: 2em;
+   text-align: center;
+   grid-template-columns: auto 150px;
+   grid-template-rows: 60px 60px 90px 90px 40px;
+   grid-template-areas:
+    "header header"
+    "nav nav"
+    "article aside"
+    "article section"
+    "footer footer";
+}
+
+header {
+   background: cornflowerblue;
+   grid-area: header;
+}
+
+nav {
+   background: goldenrod;
+   grid-area: nav;
+}
+
+article {
+   background: lightgreen;
+   grid-area: article;
+}
+
+aside {
+   background: goldenrod;
+   grid-area: aside;
+}
+
+section {
+  background: goldenrod;
+  grid-area: section;
+}
+
+footer {
+   background: red;
+   grid-area: footer;
+}
