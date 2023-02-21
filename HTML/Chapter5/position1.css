@@ -1,0 +1,23 @@
+#before {
+   border: solid 10px red;
+   color: blue;
+   width: 200px;
+   height: 100px;
+}
+
+#content {
+   border: solid 10px blue;
+   color: blue;
+   width: 200px;
+   height: 100px;
+   position: fixed;
+   left: 228px;
+   top: 248px;
+}
+
+#after {
+   border: solid 10px green;
+   color: blue;
+   width: 200px;
+   height: 100px;
+}
