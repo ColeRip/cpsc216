@@ -4,8 +4,8 @@
    width: 200px;
    height: 100px;
    position: fixed;
-   left: 0px;
-   top: 0px;
+   left: 8px;
+   top: 8px;
 }
 
 #content {
@@ -14,8 +14,8 @@
    width: 200px;
    height: 100px;
    position: absolute;
-   left: 220px;
-   top: 240px;
+   left: 228px;
+   top: 248px;
 }
 
 #after {
@@ -24,6 +24,6 @@
    width: 200px;
    height: 500px;
    position: absolute;
-   left: 0px;
-   top:120px;
+   left:8px;
+   top:128px;
 }
