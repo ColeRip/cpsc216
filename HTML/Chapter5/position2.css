@@ -10,7 +10,9 @@
    color: blue;
    width: 200px;
    height: 100px;
-   position: static;
+   position: fixed;
+   left: 228px;
+   top: 248px;
 }
 
 #after {
