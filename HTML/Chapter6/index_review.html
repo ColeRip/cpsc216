@@ -91,6 +91,24 @@
         }
     }
 
+    // Another cool JavaScript concept is the switch statement!!!
+
+    switch (parseInt(num1, 10) > parseInt(num2, 10)) {
+      case true:
+        console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
+        break;
+      default:
+        switch (parseInt(num1, 10) < parseInt(num2, 10)) {
+          case true:
+            console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
+            break;
+          default:
+            console.log("The values "+ num1+ " and "+num2+ " are equal.");
+            break;
+        }
+        break;
+    }
+
     </script>
 
   </head>
