@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Basic Fundamentals</title>
+
+    <script>
+
+    // A single line comment begins with two forward slashes
+
+    // N.B.  in Javascript, statements end with a ";"!!!!!!!!!!
+    //       indentation does NOT matter, and it is not assumed
+    //       that we have one statement per line!!!!!!!!!!
+
+    /*
+    We can surround multiple lines like this (forward slash + star) ...
+    ..
+    ..
+    ..
+    (star + forward slash)
+    */
+
+    // Variables can be defined with the "var" statement
+    var num1, num2;
+
+    // We can also initialize variables to values
+    var num3=4, num4=3.14159265, myString="Bob";
+
+    // Getting input from the user can be accomplished in many ways
+    // but one really easy and cool way is using window.prompt
+    // The first argument is the message that gets displayed, and
+    // the second argument is the default value.
+    //
+    // N.B.  The values stored in num1 and num2 will be treated as STRINGS!!!
+    num1 = window.prompt("Input the First integer", "0");
+    num2 = window.prompt("Input the second integer", "0");
+
+    // We need to convert the input values (strings) into integers!!!
+    //
+    // the first argument to parseInt() is the string to be parsed
+    // the second argument to parseInt() is the "radix", or base to be
+    // used for the conversion (base 10 is the default, if omitted).
+    var numParseInt1 = parseInt(num1,10);
+    var numParseInt2 = parseInt(num2,10);
+
+    // It is interested to look at what is returned from parseInt() when
+    // we input non-integer values!!!!
+    console.log("The first number entered is " + numParseInt1);
+    console.log("The second number entered is " + numParseInt2);
+
+    // If-else conditionals ...
+    //
+    // the condition is surrounded with rounded brackets .... ( condition )
+    // the code-block is surrounded with mustache brackets ... { code }
+    //
+    // console.log() can be used to output information to the JavaScript console
+    if(parseInt(num1, 10) > parseInt(num2, 10))
+      {
+      console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
+      }
+    else
+      if(parseInt(num2, 10) > parseInt(num1, 10))
+      {
+      console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
+      }
+    else
+      {
+       console.log("The values "+ num1+ " and "+num2+ " are equal.");
+      }
+
+    </script>
+
+  </head>
+  <body>
+
+
+
+  </body>
+</html>
