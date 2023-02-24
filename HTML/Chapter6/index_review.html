@@ -54,6 +54,10 @@
     // the code-block is surrounded with mustache brackets ... { code }
     //
     // console.log() can be used to output information to the JavaScript console
+
+    // The following code uses one method of indentation/construction
+
+    /*
     if(parseInt(num1, 10) > parseInt(num2, 10))
       {
       console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
@@ -63,17 +67,30 @@
       {
       console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
       }
-    else
+      else
       {
        console.log("The values "+ num1+ " and "+num2+ " are equal.");
       }
+    */
+
+    // The following code uses another method of indentation/construction
+
+    if(parseInt(num1, 10) > parseInt(num2, 10)) {
+        console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
+    } else {
+        if(parseInt(num2, 10) > parseInt(num1, 10)) {
+          console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
+        } else {
+          console.log("The values "+ num1+ " and "+num2+ " are equal.");
+        }
+    }
 
     </script>
 
   </head>
   <body>
 
-
+    <!-- There is actually no HTML code here!!! -->
 
   </body>
 </html>
