@@ -20,18 +20,26 @@
     (star + forward slash)
     */
 
-    // Variables can be defined with the "var" statement
+    // Variables can be defined with the "var" statement.  When we use "var",
+    // it makes the variable a GLOBAL variable ... that is, it exists within
+    // functions, as well as in the main program!
     var num1, num2;
+
 
     // We can also initialize variables to values, of different types.
     var num3=4, num4=33.4, myString="Bob";
 
-    // We can also use the keyword "let", instead of "var", or just use nothing
-    // at all!
-    let num5=1.0;
+    // We can also just use nothing at all in front of a variable definition.
+    // Here, num6 will also be a GLOBAL variable.
     num6=3.9;
 
-    // We can also define CONSTANTS, which unlike variables, are ... constant!
+    // We can also use the keyword "let", instead of "var".  In this case, num5
+    // will be a LOCAL variable ... that is, it will only exist within the
+    // function where it is defined!!!!!!!!!!
+    let num5=1.0;
+
+
+    // We can also define (global) CONSTANTS, which unlike variables, are ... constant!
     const pi = 3.14159265;
 
     // JavaScript supports many different variable types, much like Python
