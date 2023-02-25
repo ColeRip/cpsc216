@@ -13,9 +13,9 @@ nav li {
 }
 
 /* Stage 3 - add a flex-basis of 100 px */
-/*nav li {
+/* nav li {
   flex-basis: 300px;
   flex-shrink: 0;
   background-color: gold;
   text-align: center;
-}*/
+} */
