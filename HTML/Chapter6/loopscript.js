@@ -16,7 +16,10 @@ function playGuessingGame(numToGuess = 50, totalGuesses = 10) {
    // choose to use a for loop
    //
    // The syntax is:
-   // for (var loop_variable = starting value; condition; increment)
+   // for (var <loop_variable> = <starting value>; loop termination condition; loop increment)
+   //
+   // Note:  guesses++ is the same as guesses=guesses+1
+   //        guesses-- is the same as guesses=guesses-1
    //
 
    for (var guesses = 1; guesses <= totalGuesses; guesses++) {
@@ -46,6 +49,20 @@ function playGuessingGame(numToGuess = 50, totalGuesses = 10) {
               }
           }
       }
-   }
-   return 0;
+    }
+
+    // We could have also implmented all of this with a while loop!
+    //
+    // var guesses = 1;
+    // while (guesses<=totalGuesses) {
+    //     .
+    //     . same code
+    //     . as for loop
+    //     .
+    //     .
+    //     guesses++
+    // }
+    //
+
+    return 0;
 }
