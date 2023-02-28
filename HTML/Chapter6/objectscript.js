@@ -15,6 +15,8 @@ console.log("Published in " + book.published);
 console.log("Keywords = " + book.keywords);
 console.log("Third keyword = " + book.keywords[2]);
 
+// Define a new book object that has an author object as part of it
+
 let book2 = {
               title: "Hamlet",
               published: 1608,
@@ -25,6 +27,8 @@ let book2 = {
               };
 
 console.log("Author first name = " + book2.author.firstName);
+
+// Define a book option that has a user-defined function to get the full author name
 
 let book3 = {
               title: "Hamlet",
@@ -40,6 +44,8 @@ let book3 = {
               };
 
 console.log("Author name = " + book3.getAuthorName());
+
+// Define a rectangle object that has setter and getter methods for the area of the rectangle
 
 let rectangle = { width: 5, height: 10,
                   get area() {
