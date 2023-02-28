@@ -57,3 +57,8 @@ console.log("area = " + area);
 rectangle.area = 200; // calls setter method!
 console.log("width = " + rectangle.width);
 console.log("height = " + rectangle.height);
+
+let rectangle2 = rectangle; //rectangle2 and rectangle both point to the same memory location!!!
+rectangle2.area = 800; // update rectangle2 area .. this then also updates rectangle area!!!
+console.log("width = " + rectangle.width);
+console.log("height = " + rectangle.height);
