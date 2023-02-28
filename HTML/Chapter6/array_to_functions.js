@@ -28,9 +28,9 @@ function findAverage(numbers) {
 //
 // Again, when we change scores, we are also changing the array that was passed!
 function giveBonus(scores, bonus) {
-   for (let i = 0; i < scores.length; i++) {
-      scores[i] += bonus;
-   }
+  for (var i=0; i<scores.length; i++) {
+    scores[i] += bonus;
+  }
 }
 
 let examScores = [79, 85, 60, 93];
