@@ -39,11 +39,11 @@ let x = nums.pop(); // nums = [2, 4, 6] again, and x = 8
 nums.unshift(17); // nums = [17, 2, 4, 6]
 
 // Remove element from the beginning
-let y = nums.shift(); // nums = [2, 4, 6] again, and x = 17
+let y = nums.shift(); // nums = [2, 4, 6] again, and y = 17
 
 // Remove/Add chunks from/to anywhere
 bignums = [2, 4, 6, 8, 10, 12, 14]
-bignums.splice(5); //Removes from index 3 to the end ... bignums = [2, 4, 6, 8, 10]
+bignums.splice(5); //Removes from index 5 to the end ... bignums = [2, 4, 6, 8, 10]
 
 bignums.splice(0,2); // Removes two elements, starting at 0 ... bignums = [6, 8, 10]
 
@@ -60,6 +60,10 @@ console.log(bignums)
 //
 
 // First, define some arrays (of integers)
+//
+// Note:  In practice, imagine that this data came from a webscraper, and
+// you are in charge of writing the code that analyzes that scraped data!!
+//
 let dukeScores  = [72, 74, 84, 92, 93, 66, 69, 73, 70, 85, 75, 67, 79];
 let ncScores    = [76, 73, 77, 90, 81, 74, 53, 68, 88, 84, 58, 81, 73];
 let winningTeam = [];
@@ -68,11 +72,11 @@ let winningTeam = [];
 for (i=0; i<dukeScores.length; i++) {
   if (dukeScores[i] > ncScores[i]) {
      console.log("Duke won " + dukeScores[i] + "-" + ncScores[i] + ".");
-     winningTeam[i] = "D";
+     winningTeam[i] = "Duke";
   }
   else {
      console.log("North Carolina won " + ncScores[i] + "-" + dukeScores[i] + ".");
-     winningTeam[i] = "N";
+     winningTeam[i] = "UNC";
   }
 }
 console.log(winningTeam);
