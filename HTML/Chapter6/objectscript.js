@@ -47,14 +47,18 @@ console.log("Author name = " + book3.getAuthorName());
 
 // Define a rectangle object that has setter and getter methods for the area of the rectangle
 
-let rectangle = { width: 5, height: 10,
+let rectangle = { width: 5,
+                  height: 10,
+
                   get area() {
                         return this.width*this.height;
                       },
+
                   set area(value) {
                         this.width = Math.sqrt(2.0*value);
                         this.height = this.width/2.0;
                       }
+                      
                   };
 
 let area = rectangle.area;// calls getter method!
