@@ -29,10 +29,10 @@ rectangle.aspect_ratio = aspect;
 let area = rectangle.area;
 let height = rectangle.height;
 
-console.log(rectangle.width);
-console.log(rectangle.height);
-console.log(rectangle.aspect_ratio);
-console.log(rectangle.area);
+//console.log(rectangle.width);
+//console.log(rectangle.height);
+//console.log(rectangle.aspect_ratio);
+//console.log(rectangle.area);
 
 let okPressed = window.confirm("Would you like to see a popup window?");
 
